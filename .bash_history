@@ -44,3 +44,11 @@ git push -u origin main
 git status
 git init
 git status
+git add .
+git commit -m first
+git branch -M main
+git remote add origin git@github.com:Kayan706/plex.git
+thub.com:Kayan706/plex.git
+git push -u origin main
+git init
+git status
