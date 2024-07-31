@@ -59,3 +59,9 @@ git remote add origin https://github.com/Kayan706/plex.git
 git push -u origin main
 git init
 git status
+git add .
+git commit -m first
+git branch -M main
+git remote add origin git@github.com:Kayan706/plex.git
+git config --list
+git commit -m first
