@@ -32,3 +32,15 @@ git push -u origin main
 git init
 git add .
 git status
+git add .
+git commit -m first
+git config --global user.email "you@example.com"
+git config --global user.email "kayan7066@gmail.com"
+git config --global user.name "Kayan706"
+git commit -m first
+git branch -M main
+git remote add origin git@github.com:Kayan706/plex.git
+git push -u origin main
+git status
+git init
+git status
