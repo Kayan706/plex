@@ -1,0 +1,46 @@
+# Этот файл viminfo автоматически создан Vim 7.4.
+# Его можно (осторожно!) редактировать.
+
+# Значение опции 'encoding' в момент записи файла
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Командная строка, история (начиная от свежего к старому):
+
+# Строка поиска, история (начиная от свежего к старому):
+
+# Выражение, история (начиная от свежего к старому):
+
+# Строка ввода, история (начиная от свежего к старому):
+
+# Строка ввода, история (начиная от свежего к старому):
+
+# Регистры:
+
+# Глобальные отметки:
+'0  125  0  ~/www/planet-ex.ru/ex/ex/settings.py
+'1  124  20  ~/www/planet-ex.ru/ex/ex/settings.py
+'2  1  0  project_name/planetex/settings.py
+
+# Список прыжков (сначала более свежие):
+-'  125  0  ~/www/planet-ex.ru/ex/ex/settings.py
+-'  124  0  ~/www/planet-ex.ru/ex/ex/settings.py
+-'  1  0  ~/www/planet-ex.ru/ex/ex/settings.py
+-'  1  0  project_name/planetex/settings.py
+-'  1  0  project_name/planetex/settings.py
+-'  1  0  project_name/planetex/settings.py
+-'  1  0  project_name/planetex/settings.py
+
+# История местных отметок (от более свежих к старым):
+
+> ~/www/planet-ex.ru/ex/ex/settings.py
+	"	125	0
+	^	27	0
+	.	28	0
+	+	28	33
+	+	28	0
+
+> project_name/planetex/settings.py
+	"	1	0

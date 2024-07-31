@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/static/main/css/style.css">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <h1 class="hpopap">Заказать обратный звонок</h1>
+        <img class="close-popup" src="static/main/img/Frame49.png" type="button" alt="" id="close-popup"  data-bs-dismiss="modal">
+
+    <form class="popa" action="{% url 'pop' %}" method="POST">
+
+            {% csrf_token %}
+            {{ pop.name }} <br>
+            {{ pop.tel }} <br>
+            {{ pop.comments }} <br>
+
+
+            <div class="politimg">
+                <img src="static/main/img/Variant3.svg" alt="">
+                <p class="polit">Подтверждаю, что я ознакомлен и согласен с условиями <a href="/polit"> Политики обработки персональных данных </a></p>
+            </div>
+            <button src="/" class="popupbutton" type="submit" id="submit" data-dismiss="modal">Отправить</button>
+
+    </form>
+    </div>
+  </div>
+</div>
